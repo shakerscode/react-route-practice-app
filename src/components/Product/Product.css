@@ -1,0 +1,21 @@
+.product{
+    margin-top: 20px;
+    box-shadow: 2px 3px 10px lightslategray;
+  padding: 10px 0;
+    border-radius: 10px;
+    background-color: aquamarine;
+    
+}
+.add-to-cart-btn{
+    padding: 10px 20px;
+    background-color: rgb(253, 192, 101);
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: .2s ease-in-out;
+     
+}
+.add-to-cart-btn:hover{
+    background-color: rgb(0, 238, 103);
+    transform: scaleX(0.92);
+}

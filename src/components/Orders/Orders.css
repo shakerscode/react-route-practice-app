@@ -1,0 +1,23 @@
+.order-products{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    margin:auto;
+}
+.ordered-carts{
+    background-color: rgb(255, 213, 136);
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 350px;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+.ordered-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+}
